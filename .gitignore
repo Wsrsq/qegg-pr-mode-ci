@@ -1,0 +1,8 @@
+# qegg runtime state (init does not manage this file yet)
+/.quailegg/state/
+/.quailegg/lock
+
+# Go build output
+/qegg
+/qegg.exe
+/dist/
