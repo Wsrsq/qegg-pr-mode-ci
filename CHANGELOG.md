@@ -1,5 +1,15 @@
 # Changelog
 
+<!-- qegg:release 0.4.0 -->
+## v0.4.0 - 2026-10-29
+
+### Features
+
+- [`48fde9a`](https://github.com/Wsrsq/qegg-pr-mode-ci/commit/48fde9a69bc2f1ff4d2b5661b62ca3fa26f8b00b): Print the build version when asked with --version so a release can identify itself.
+
+**Full Changelog**: https://github.com/Wsrsq/qegg-pr-mode-ci/compare/v0.4.0-alpha.1...v0.4.0
+<!-- qegg:release:end -->
+
 <!-- qegg:release 0.3.0 -->
 ## v0.3.0 - 2026-10-29
 
