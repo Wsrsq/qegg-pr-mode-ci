@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "created_at": "2026-10-29T05:15:44.652109697Z",
+  "mode": "pr",
+  "fingerprint": "sha256:937832557c8b694f24df17d2c275b11d1f36af55bdf5f21cfa2b29e58af8d1cf",
+  "repo": {
+    "host": "github.com",
+    "owner": "Wsrsq",
+    "name": "qegg-pr-mode-ci",
+    "url": "https://github.com/Wsrsq/qegg-pr-mode-ci"
+  },
+  "verified": {
+    "commands": [
+      "go test ./..."
+    ],
+    "skipped": false,
+    "at": "2026-10-29T05:15:44.652110378Z"
+  },
+  "packages": [
+    {
+      "name": "github.com/Wsrsq/qegg-pr-mode-ci",
+      "path": ".",
+      "resolver": "go",
+      "current": "0.0.0",
+      "next": "0.1.0",
+      "bump": "minor",
+      "publish": true
+    }
+  ],
+  "changes": [
+    {
+      "file": ".changes/add-greeting.md",
+      "type": "feat",
+      "scope": "cmd",
+      "bump": "minor",
+      "body": "Print a greeting so the release flow has something to ship.",
+      "commit": "7ee1cec7476d56abb7a2b2f28d189e07d5eb4040",
+      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/7ee1cec7476d56abb7a2b2f28d189e07d5eb4040",
+      "author": "wsrsq"
+    },
+    {
+      "file": ".changes/greet-by-name.md",
+      "type": "feat",
+      "scope": "cmd",
+      "bump": "patch",
+      "body": "Greet the reader by name so the output reads like a personal hello.",
+      "commit": "2f654a00c8cd6b8e6a21c83a0e1866d2470a9294",
+      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/2f654a00c8cd6b8e6a21c83a0e1866d2470a9294",
+      "author": "SuperCCC"
+    },
+    {
+      "file": ".changes/greet-twice.md",
+      "type": "feat",
+      "scope": "cmd",
+      "bump": "minor",
+      "body": "Print the greeting twice so the output reads like a conversation.",
+      "commit": "78e1ac1e40a1bbc8d562144fa08e5ba6e2f29690",
+      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/78e1ac1e40a1bbc8d562144fa08e5ba6e2f29690",
+      "author": "SuperCCC"
+    }
+  ]
+}
