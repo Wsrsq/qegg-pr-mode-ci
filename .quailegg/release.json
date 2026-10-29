@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "version": "0.2.0",
-  "created_at": "2026-10-29T06:30:09.104136857Z",
+  "version": "0.3.0",
+  "created_at": "2026-10-29T06:40:55.776399982Z",
   "mode": "pr",
-  "fingerprint": "sha256:420ed315a8131121ad0e8f2811768ce130289d6e65b86be34a7bc55ec6dd8ad8",
+  "fingerprint": "sha256:6718c0cadcbabe94c346e4d7d1d2ee6cdb960c6653cf043d70ec34b487dd2bca",
   "repo": {
     "host": "github.com",
     "owner": "Wsrsq",
@@ -15,30 +15,42 @@
       "go test ./..."
     ],
     "skipped": false,
-    "at": "2026-10-29T06:30:09.104137629Z"
+    "at": "2026-10-29T06:40:55.776400473Z"
   },
   "packages": [
     {
       "name": "github.com/Wsrsq/qegg-pr-mode-ci",
       "path": ".",
       "resolver": "go",
-      "current": "0.1.1",
-      "next": "0.2.0",
+      "current": "0.2.0",
+      "next": "0.3.0",
       "bump": "minor",
       "publish": true
     }
   ],
   "changes": [
     {
-      "file": ".changes/add-farewell.md",
+      "file": ".changes/greet-by-argument.md",
       "type": "feat",
       "scope": "cmd",
       "bump": "minor",
-      "body": "Print a farewell so every greeting has a matching goodbye.",
-      "commit": "d4a387b580989f9b8c4945713eef3bff8a182cdd",
-      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/d4a387b580989f9b8c4945713eef3bff8a182cdd",
-      "pull_number": 6,
-      "pull_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/pull/6",
+      "body": "Read the name from the command line so the greeting can address anyone.",
+      "commit": "d041f9b5f7fb1fdcbcaf375cbbb66e66aa4cf550",
+      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/d041f9b5f7fb1fdcbcaf375cbbb66e66aa4cf550",
+      "pull_number": 11,
+      "pull_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/pull/11",
+      "author": "SuperCCC"
+    },
+    {
+      "file": ".changes/greet-once.md",
+      "type": "fix",
+      "scope": "cmd",
+      "bump": "patch",
+      "body": "Greet once so the output stops repeating the same line.",
+      "commit": "1153991921d2f64d9a8d014f0d65ee078a6821b4",
+      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/1153991921d2f64d9a8d014f0d65ee078a6821b4",
+      "pull_number": 9,
+      "pull_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/pull/9",
       "author": "SuperCCC"
     }
   ]
