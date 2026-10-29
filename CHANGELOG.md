@@ -1,5 +1,15 @@
 # Changelog
 
+<!-- qegg:release 0.2.0 -->
+## v0.2.0 - 2026-10-29
+
+### Features
+
+- [`d4a387b`](https://github.com/Wsrsq/qegg-pr-mode-ci/commit/d4a387b580989f9b8c4945713eef3bff8a182cdd): Print a farewell so every greeting has a matching goodbye. ([#6](https://github.com/Wsrsq/qegg-pr-mode-ci/pull/6) by @SuperCCC)
+
+**Full Changelog**: https://github.com/Wsrsq/qegg-pr-mode-ci/compare/v0.1.1...v0.2.0
+<!-- qegg:release:end -->
+
 <!-- qegg:release 0.1.1 -->
 ## v0.1.1 - 2026-10-29
 
