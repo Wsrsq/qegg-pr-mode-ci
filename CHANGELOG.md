@@ -1,5 +1,19 @@
 # Changelog
 
+<!-- qegg:release 0.3.0 -->
+## v0.3.0 - 2026-10-29
+
+### Features
+
+- [`d041f9b`](https://github.com/Wsrsq/qegg-pr-mode-ci/commit/d041f9b5f7fb1fdcbcaf375cbbb66e66aa4cf550): Read the name from the command line so the greeting can address anyone. ([#11](https://github.com/Wsrsq/qegg-pr-mode-ci/pull/11) by @SuperCCC)
+
+### Bug Fixes
+
+- [`1153991`](https://github.com/Wsrsq/qegg-pr-mode-ci/commit/1153991921d2f64d9a8d014f0d65ee078a6821b4): Greet once so the output stops repeating the same line. ([#9](https://github.com/Wsrsq/qegg-pr-mode-ci/pull/9) by @SuperCCC)
+
+**Full Changelog**: https://github.com/Wsrsq/qegg-pr-mode-ci/compare/v0.2.0...v0.3.0
+<!-- qegg:release:end -->
+
 <!-- qegg:release 0.2.0 -->
 ## v0.2.0 - 2026-10-29
 
