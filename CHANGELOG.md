@@ -1,5 +1,15 @@
 # Changelog
 
+<!-- qegg:release 0.1.1 -->
+## v0.1.1 - 2026-10-29
+
+### Bug Fixes
+
+- [`8bfb749`](https://github.com/Wsrsq/qegg-pr-mode-ci/commit/8bfb74993196bcae83f3ba8a8138508f1499fee2): End the greeting with an exclamation mark so the output reads friendlier.
+
+**Full Changelog**: https://github.com/Wsrsq/qegg-pr-mode-ci/compare/v0.1.0...v0.1.1
+<!-- qegg:release:end -->
+
 <!-- qegg:release 0.1.0 -->
 ## v0.1.0 - 2026-10-29
 
