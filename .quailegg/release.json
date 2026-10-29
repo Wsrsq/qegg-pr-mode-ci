@@ -1,10 +1,9 @@
 {
   "schema_version": 1,
-  "version": "0.4.0-alpha.1",
-  "created_at": "2026-10-29T12:06:12.787481234Z",
+  "version": "0.4.0",
+  "created_at": "2026-10-29T12:11:02.700179783Z",
   "mode": "pr",
-  "channel": "alpha",
-  "fingerprint": "sha256:5685b7cfcb7472614282885b13a40ff12fea55278ccb3c7556241631d50fd59d",
+  "fingerprint": "sha256:71d33e895d7796f160c7f0745194c42799e87a316d79894ff26eb2df787c39c1",
   "repo": {
     "host": "github.com",
     "owner": "Wsrsq",
@@ -16,15 +15,15 @@
       "go test ./..."
     ],
     "skipped": false,
-    "at": "2026-10-29T12:06:12.787481875Z"
+    "at": "2026-10-29T12:11:02.700180393Z"
   },
   "packages": [
     {
       "name": "github.com/Wsrsq/qegg-pr-mode-ci",
       "path": ".",
       "resolver": "go",
-      "current": "0.3.0",
-      "next": "0.4.0-alpha.1",
+      "current": "0.4.0-alpha.1",
+      "next": "0.4.0",
       "bump": "minor",
       "publish": true
     }
