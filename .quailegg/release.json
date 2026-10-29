@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
-  "version": "0.3.0",
-  "created_at": "2026-10-29T06:40:55.776399982Z",
+  "version": "0.4.0-alpha.1",
+  "created_at": "2026-10-29T12:06:12.787481234Z",
   "mode": "pr",
-  "fingerprint": "sha256:6718c0cadcbabe94c346e4d7d1d2ee6cdb960c6653cf043d70ec34b487dd2bca",
+  "channel": "alpha",
+  "fingerprint": "sha256:5685b7cfcb7472614282885b13a40ff12fea55278ccb3c7556241631d50fd59d",
   "repo": {
     "host": "github.com",
     "owner": "Wsrsq",
@@ -15,43 +16,29 @@
       "go test ./..."
     ],
     "skipped": false,
-    "at": "2026-10-29T06:40:55.776400473Z"
+    "at": "2026-10-29T12:06:12.787481875Z"
   },
   "packages": [
     {
       "name": "github.com/Wsrsq/qegg-pr-mode-ci",
       "path": ".",
       "resolver": "go",
-      "current": "0.2.0",
-      "next": "0.3.0",
+      "current": "0.3.0",
+      "next": "0.4.0-alpha.1",
       "bump": "minor",
       "publish": true
     }
   ],
   "changes": [
     {
-      "file": ".changes/greet-by-argument.md",
+      "file": ".changes/print-the-version.md",
       "type": "feat",
       "scope": "cmd",
       "bump": "minor",
-      "body": "Read the name from the command line so the greeting can address anyone.",
-      "commit": "d041f9b5f7fb1fdcbcaf375cbbb66e66aa4cf550",
-      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/d041f9b5f7fb1fdcbcaf375cbbb66e66aa4cf550",
-      "pull_number": 11,
-      "pull_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/pull/11",
-      "author": "SuperCCC"
-    },
-    {
-      "file": ".changes/greet-once.md",
-      "type": "fix",
-      "scope": "cmd",
-      "bump": "patch",
-      "body": "Greet once so the output stops repeating the same line.",
-      "commit": "1153991921d2f64d9a8d014f0d65ee078a6821b4",
-      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/1153991921d2f64d9a8d014f0d65ee078a6821b4",
-      "pull_number": 9,
-      "pull_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/pull/9",
-      "author": "SuperCCC"
+      "body": "Print the build version when asked with --version so a release can identify itself.",
+      "commit": "48fde9a69bc2f1ff4d2b5661b62ca3fa26f8b00b",
+      "commit_url": "https://github.com/Wsrsq/qegg-pr-mode-ci/commit/48fde9a69bc2f1ff4d2b5661b62ca3fa26f8b00b",
+      "author": "wsrsq"
     }
   ]
 }
