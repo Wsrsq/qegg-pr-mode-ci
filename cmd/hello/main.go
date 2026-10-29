@@ -1,10 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	fmt.Println(greeting("friend"))
-	fmt.Println(farewell("friend"))
+	name := "friend"
+	if len(os.Args) > 1 {
+		name = os.Args[1]
+	}
+	fmt.Println(greeting(name))
+	fmt.Println(farewell(name))
 }
 
 func greeting(name string) string {
