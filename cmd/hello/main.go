@@ -9,5 +9,5 @@ func main() {
 }
 
 func greeting(name string) string {
-	return "hello from qegg pr mode, " + name
+	return "hello from qegg pr mode, " + name + "!"
 }
